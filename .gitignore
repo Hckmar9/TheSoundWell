@@ -22,3 +22,6 @@ package-lock.json
 *.njsproj
 *.sln
 *.sw?
+
+# Avoiding for now
+src/composables/__tests__/
