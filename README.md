@@ -2,7 +2,7 @@
 
 ![Pulse Player Screenshot](/public/pulseplayer.jpg)
 
-## 🌟 Overview
+## 🪩 Overview
 
 I wanted to use something free of adds and without needing to add my information. There are a lot of great apps, we should support them, BUT, I wanted to create mine, this is for educational purposes. I'm, planning to add more features soon. Sounds credits to [ZapSplat](https://www.zapsplat.com/)
 
@@ -20,8 +20,7 @@ I wanted to use something free of adds and without needing to add my information
 ## 🛠️ Technologies
 
 - Vue.js 3
-- HTML5
-- CSS3
+- HTML5/CSS3
 - Web Audio API
 
 ## 📋 Prerequisites
@@ -73,7 +72,7 @@ We welcome contributions! Here's how you can help:
 
 ## 📜 License
 
-Used the sounds from here, full credit to them: [ZapSplat](https://www.zapsplat.com/)
+Sounds from here, full credit to them: [ZapSplat](https://www.zapsplat.com/)
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
