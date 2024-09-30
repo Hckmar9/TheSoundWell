@@ -3,7 +3,7 @@
     class="container"
     :style="{ backgroundImage: `url(${backgroundImage})` }"
   >
-    <h1>Background Sounds</h1>
+    <h1>The SoundWell tunes</h1>
     <div class="button-container">
       <button
         v-for="sound in SOUNDS"

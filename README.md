@@ -1,10 +1,15 @@
-# 🎵 Pulse Player
+# 🎵 TheSoundWell
 
-![Pulse Player Screenshot](/public/pulseplayer.jpg)
+<p align="center">
+  <img src="TheSoundWell.jpg" alt="Pulse Player Screenshot">
+</p>
 
 ## 🪩 Overview
 
-I wanted to use something free of adds and without needing to add my information. There are a lot of great apps, we should support them, BUT, I wanted to create mine, this is for educational purposes. I'm, planning to add more features soon. Sounds credits to [ZapSplat](https://www.zapsplat.com/)
+I wanted to use something free of adds and without needing to add my
+information. There are a lot of great apps, we should support them, BUT, I
+wanted to create mine, this is for educational purposes. I'm, planning to add
+more features soon. Sounds credits to [ZapSplat](https://www.zapsplat.com/)
 
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -12,10 +17,11 @@ I wanted to use something free of adds and without needing to add my information
 
 ## ✨ Features
 
-- 🌧️ Play a variety of soothing background sounds (rain, fan, storm, night, ocean)
+- 🌧️ Play a variety of soothing background sounds (rain, fan, storm, night,
+  ocean)
 - ⏹️ Easily stop the current sound
+- 🔉 Volume control
 - 📱 Responsive design for seamless use across devices
-- 🎨 Clean, intuitive user interface
 
 ## 🛠️ Technologies
 
@@ -35,11 +41,11 @@ Make sure you have:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Hckmar9/pulseplayer.git
+   git clone https://github.com/Hckmar9/thesoundwell.git
    ```
 2. Navigate to the project directory:
    ```
-   cd background-sound-player
+   cd thesoundwell
    ```
 3. Install dependencies:
    ```
@@ -52,29 +58,18 @@ Make sure you have:
    ```
    npm run dev
    ```
-2. Open your browser and visit `http://localhost:5173` (or the port shown in your terminal)
-
-3. Click on any sound button to start your ambient journey
-
-4. Use the "Stop" button to halt the current sound
-
-5. Relax and enjoy! 🎶
+2. Relax and enjoy 🎶
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
-
-1. Fork this repository
-2. Create a new branch: `git checkout -b feature/CoolFeature`
-3. Make your changes and commit them: `git commit -m 'Add some CoolFeature'`
-4. Push to the branch: `git push origin feature/CoolFeature`
-5. Open a pull request\
+All contributions are welcome!
 
 ## 📜 License
 
 Sounds from here, full credit to them: [ZapSplat](https://www.zapsplat.com/)
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the
+[MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
