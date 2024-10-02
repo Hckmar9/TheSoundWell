@@ -8,7 +8,7 @@
 
 I wanted to use something free of adds and without needing to add my
 information. There are a lot of great apps, we should support them, BUT, I
-wanted to create mine, this is for educational purposes. I'm, planning to add
+wanted to create mine, this is for educational purposes. I'm planning to add
 more features soon. Sounds credits to [ZapSplat](https://www.zapsplat.com/)
 
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
