@@ -31,21 +31,23 @@
       />
     </div>
   </div>
+  <Analytics />
 </template>
 
 <script>
-import { onMounted, ref } from 'vue'
-import { useAudio, SOUNDS } from './composables/useAudio'
+import { onMounted, ref } from "vue";
+import { useAudio, SOUNDS } from "./composables/useAudio";
+import { Analytics } from "@vercel/analytics/vue";
 
 export default {
   setup() {
     const { currentSound, playSound, stopSound, preloadSounds, setVolume } =
-      useAudio()
-    const volume = ref(1) // Default volume set to max
+      useAudio();
+    const volume = ref(1); // Default volume set to max
 
     onMounted(() => {
-      preloadSounds()
-    })
+      preloadSounds();
+    });
 
     return {
       SOUNDS,
@@ -53,8 +55,8 @@ export default {
       playSound,
       stopSound,
       volume,
-      setVolume: () => setVolume(volume.value)
-    }
-  }
-}
+      setVolume: () => setVolume(volume.value),
+    };
+  },
+};
 </script>

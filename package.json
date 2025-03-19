@@ -10,6 +10,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "vue": "^3.4.37"
   },
   "devDependencies": {
