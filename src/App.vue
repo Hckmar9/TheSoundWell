@@ -31,31 +31,18 @@
       />
     </div>
   </div>
-  <Analytics />
 </template>
-
-<script>
+<script setup>
+import { inject } from "@vercel/analytics";
 import { onMounted, ref } from "vue";
 import { useAudio, SOUNDS } from "./composables/useAudio";
 
-export default {
-  setup() {
-    const { currentSound, playSound, stopSound, preloadSounds, setVolume } =
-      useAudio();
-    const volume = ref(1); // Default volume set to max
+const { currentSound, playSound, stopSound, preloadSounds, setVolume } =
+  useAudio();
+const volume = ref(1); // Default volume set to max
 
-    onMounted(() => {
-      preloadSounds();
-    });
-
-    return {
-      SOUNDS,
-      currentSound,
-      playSound,
-      stopSound,
-      volume,
-      setVolume: () => setVolume(volume.value),
-    };
-  },
-};
+onMounted(() => {
+  preloadSounds();
+  inject();
+});
 </script>
