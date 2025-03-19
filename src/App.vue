@@ -37,7 +37,6 @@
 <script>
 import { onMounted, ref } from "vue";
 import { useAudio, SOUNDS } from "./composables/useAudio";
-import { Analytics } from "@vercel/analytics/vue";
 
 export default {
   setup() {
